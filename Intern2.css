@@ -430,6 +430,7 @@ p{
 }
 .testimonail{
     text-align: center;
+    margin-top: 5%;
 
 }
 .profile{
@@ -499,12 +500,10 @@ p{
 .textbox{
     border-radius: 5px;
 }
-.btn{
+
+.btnsm{
     margin-top: 8%;
     margin-left: 38%;
-    
-}
-.btnsm{
     width: 400px;
     height: 50px;
     border-radius: 10px;

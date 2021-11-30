@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="Intern2.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  
     <!-- <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
@@ -26,6 +26,7 @@
            }
         })
     </script> -->
+     
    
     <main>
       
@@ -496,30 +497,31 @@
                              </p>
                          </div>
                         <section class="box">
+                            <form onsubmit=" return validate()" action="index.html">
                             <div class="textb">
+                               
+
+                                
                                 <div class="contact">
-                                    <input type="text" class="textbox" placeholder="Name">
+                                    <input type="text" class="textbox" id="name" placeholder=" Name" >
                                 </div>
                                 <div class="contact">
-                                    <input type="email" class="textbox" placeholder="Email">
+                                    <input type="email" class="textbox" id="email" placeholder=" Email" >
                                 </div>
                                 <div class="contact">
-                                    <input type="text" class="textbox" placeholder="Subject">
+                                    <input type="text" class="textbox" id="subject" placeholder=" Subject" >
                                 </div>
                             </div>
                             
                             <div class="contact2">
-                                <textarea name="" class="tarea" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+                                <textarea name="" class="tarea" cols="30" rows="10" placeholder=" Your Message" ></textarea>
                             </div>
-                        </section>
-                       
-                        <div class="btn">
                             <button type="submit" class="btnsm" id="">
                                 Shoot Message
                             </button>
-                        </div>
-                      
-                        
+                        </form>
+                        </section>                                            
                     </div>
                     
                     <div class="bottom">
@@ -554,25 +556,7 @@
         </div>
       
     </main>
-    <script type="text/javascript">
-        var navbar = document.getElementById('navbar');
-  
-  window.onscroll = function () {
-  
-    if(window.pageYOffset > 740){
-  
-     navbar.style.position = "fixed";
-     navbar.style.top = 0;
-  
-     }else{
-       // nav.style.position = "absolute";
-       navbar.style.position = 'relative'; //fixed
-       navbar.style.top = 100;
-     }
-  }
-  
-  
-   </script>
-   
+    <!-- javascript -->
+    <script src="script.js"></script>
 </body>
 </html>
