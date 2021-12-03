@@ -542,3 +542,8 @@ p{
     margin: 0 5px;
    
 }
+@media  screen and (max-width=800) {
+    .brand  {
+        width: 100%;
+    }
+}
